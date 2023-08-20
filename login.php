@@ -2,10 +2,8 @@
 <HTML xml:lang>
 <HEAD>
 <TITLE>Login</TITLE>
-<link href="assets/css/phppot-style.css" type="text/css"
-	rel="stylesheet" />
-<link href="assets/css/user-registration.css" type="text/css"
-	rel="stylesheet" />
+<link href="assets/css/phppot-style.css" type="text/css" rel="stylesheet" />
+<link href="assets/css/user-registration.css" type="text/css" rel="stylesheet" />
 <script src="vendor/jquery/jquery-3.3.1.js" type="text/javascript"></script>
 </HEAD>
 <BODY>
@@ -15,16 +13,14 @@
 				<a href="user-registration.php">Sign up</a>
 			</div>
 			<div class="signup-align">
-				<form name="login" action="" method="post"
-					onsubmit="return loginValidation()">
+				<form name="login" action="" method="post" onsubmit="return loginValidation()">
 					<div class="signup-heading">Login</div>
 				<div class="row">
 						<div class="inline-block">
 							<div class="form-label">
 								Username<span class="required error" id="username-info"></span>
 							</div>
-							<input class="input-box-330" type="text" name="username"
-								id="username">
+							<input class="input-box-330" type="text" name="username" id="username">
 						</div>
 					</div>
 					<div class="row">
@@ -32,13 +28,11 @@
 							<div class="form-label">
 								Password<span class="required error" id="login-password-info"></span>
 							</div>
-							<input class="input-box-330" type="password"
-								name="login-password" id="login-password">
+							<input class="input-box-330" type="password" name="login-password" id="login-password">
 						</div>
 					</div>
 					<div class="row">
-						<input class="btn" type="submit" name="login-btn"
-							id="login-btn" value="Login">
+						<input class="btn" type="submit" name="login-btn" id="login-btn" value="Login">
 					</div>
 				</form>
 			</div>
