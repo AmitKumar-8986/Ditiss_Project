@@ -1,4 +1,5 @@
-<HTML>
+<!DOCTYPE>
+<HTML xml:lang>
 <HEAD>
 <TITLE>Login</TITLE>
 <link href="assets/css/phppot-style.css" type="text/css"
